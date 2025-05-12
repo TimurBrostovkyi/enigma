@@ -23,7 +23,7 @@ jobs:
       - name: Grant execute permission to gradlew
         run: chmod +x gradlew
 
-      - name: Build with Gradle
+      - wsdname: Build with Gradle
         run: ./gradlew assembleDebug
 
       - name: Upload APK
